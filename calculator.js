@@ -84,11 +84,6 @@ function calculate(){
  oil_price=$k("#input_oil_price").val();
  indoor_temp=$k("#input_indoor_temp").val();
 
- //alert(oil_price);
- //alert(district_heating_price);
-
-
-
 
  $k.ajax
     ({ 
