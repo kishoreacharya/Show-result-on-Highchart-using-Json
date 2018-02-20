@@ -1,22 +1,10 @@
 var $k = jQuery.noConflict();
 
 $k(document).ready(function(){
-	
-	
-
-
 $k("div#container_graph_res").hide();
 $k("div#container_graph_avg_res").hide();
 
      var surface_area;
-     var building_height;
-
-     var electric_price;
-     var district_heating_price;
-     var oil_price;
-
-     var indoor_temp;
-
      var bulding_type_default_val=1;
      var heating_type_default_val=2;
 
@@ -64,13 +52,6 @@ $k("div#container_graph_avg_res").hide();
    }
 
    });
-
-
-
-
-
-
-
 
 
 
